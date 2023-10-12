@@ -1,0 +1,61 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the card container */
+.card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the header containing the image and button */
+.card header {
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+button.material-symbols-outlined {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #0078d4; /* Button color */
+}
+
+/* Style the footer containing actions, stats, and tags */
+.card footer {
+    padding: 10px;
+    background: #f7f7f7; /* Footer background color */
+}
+
+.actions button {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #0078d4; /* Action button color */
+}
+
+.stats span {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #555; /* Stats text color */
+}
+
+.tags span {
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+    padding: 5px 10px;
+    background: #0078d4; /* Tag background color */
+    color: #fff; /* Tag text color */
+    font-size: 12px;
+    border-radius: 20px;
+}
